@@ -144,12 +144,13 @@ body {
 .promo {
     padding-top: 50px;
     padding-bottom: 50px;
-}
-.cards {
     display: flex;
     justify-content: space-between;
+    margin: -20px;
 }
 .card {
+    flex: 50%;
+    margin: 20px;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
@@ -220,3 +221,239 @@ body {
     z-index: -2;
     object-fit: cover;
 } 
+.section-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 47px;
+}
+.delivery-week {
+    padding: 100px 0px;
+}
+.delivery-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+.delivery-card {
+    position: relative;
+    width: 275px;
+    height: 182px;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 15px;
+    cursor: pointer;
+}
+.delivery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.delivery-tag {
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494f;
+    padding: 5px 10px; 
+}
+.tag-health {
+    background-color: #D0FD89;
+}
+.tag-vegetable {
+    background-color: #AEBC41;
+    color: #FFFFFF;
+}
+.tag-meat {
+    background-color: #B86B78;
+    color: #FFFFFF;
+}
+.tag-bird {
+    background-color: #D68334;
+    color: #FFFFFF;
+}
+.tag-fish {
+    background-color: #CD6255;
+    color: #FFFFFF;
+}
+.tag-children {
+    background-color: #FFFDBF;
+}
+.tag-parents {
+    background-color: #F6FDC8;
+}
+.tag-holiday {
+    background-color: #FEF7FE;
+}
+.section-grey {
+    background-color: #F6F6F6;
+}
+.category {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.advantage {
+    padding-top: 109px;
+    padding-bottom: 200px;
+}
+.tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-bottom: 62px;
+}
+.tabs-item {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+.tabs-link {
+    text-decoration: none;
+    color: #49494F;
+    font-size: 20px;
+    line-height: 23px;
+    margin-right: 58px;
+}
+.active {
+    color: #F37321;
+}
+.tabs-content {
+    display: flex;
+    justify-content: space-between;
+}
+.tabs-card {
+    max-width: 270px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.advantage-content {
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-card {
+    max-width: 270px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #fff; 
+    text-align: center;
+}
+.tabs-card-content {
+    padding: 23px;
+}
+.advantage-card-content {
+    padding: 36px 34px 25px 34px;
+}
+.advantage-img {
+    max-width: 100%;
+    margin-top: 30px;
+}
+.tabs-img {
+    max-width: 100%;
+}
+.tabs-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+.advantage-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    margin: 0;
+}
+.tabs-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE;
+    margin-bottom: 36px;
+}
+.advantage-description {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #49494F;
+    margin: 0;
+    margin-top: 13px;
+}
+.tabs-info {
+    display: flex;
+    justify-content: space-between;
+}
+.tabs-good {
+    display: flex;
+    flex-direction: column;
+}
+.tabs-price {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4B4B51;
+    display: block;
+    margin-bottom: 5px;
+}
+.tabs-weight {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #AAAAB1;
+}
+.button-outline {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F37321;
+    border: 2px solid #F37321;
+    box-sizing: border-box;
+    border-radius: 33px;
+    padding: 13px 20px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.button-center {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    width: 315px;
+}
+.footer {
+    padding: 40px 0;
+    background: #F6F6F6;
+}
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+}
+.footer-logo {
+    margin-right: 50px;
+}
+.footer-nav {
+
+}
+.footer-social {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.social-link {
+    text-decoration: none;
+    margin-left: 20px;
+}
+.footer-link {
+    color: #000000;
+    line-height: 23px;
+    margin-right: 50px;
+    font-size: 16px;
+}
